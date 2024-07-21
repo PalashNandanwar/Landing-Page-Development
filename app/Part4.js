@@ -24,97 +24,96 @@ import { MdOutlineRealEstateAgent } from "react-icons/md";
 
 const Part4 = () => {
     return (
-        <div className="px-14 py-12 relative w-full h-[100%] bg-[#F2F4F7]">
-            <div className="w-1/3">
-                <p className=" text-4xl font-bold">Developed more than <span className=" text-[#80a948]"> 100 </span> projects in <span className=" text-[#80a948]"> 15 </span> industries</p>
+        <div className="px-4 sm:px-14 py-12 relative w-full h-full bg-[#F2F4F7]">
+            <div className="w-full sm:w-1/3">
+                <p className="text-2xl sm:text-4xl font-bold">Developed more than <span className="text-[#80a948]"> 100 </span> projects in <span className="text-[#80a948]"> 15 </span> industries</p>
             </div>
-            <div className=" grid grid-cols-3 py-10">
-                <div className=" grid grid-rows-5 gap-5">
-                    <span className=" flex items-center gap-4"> <span className="text-yellow-500   flex items-center justify-center w-8 h-8 rounded-full bg-[#ffffff] shadow-2xl"><TiSocialInstagram /></span> Social Media</span>
-                    <span className=" flex items-center gap-4"> <span className=" text-yellow-500 flex items-center justify-center w-8 h-8 rounded-full bg-[#ffffff] shadow-2xl"><MdOutlineSportsBasketball /></span> Fitness and Sport </span>
-                    <span className=" flex items-center gap-4"> <span className=" text-yellow-500 flex items-center justify-center w-8 h-8 rounded-full bg-[#ffffff] shadow-2xl"><CiBank /></span> Bank </span>
-                    <span className=" flex items-center gap-4"> <span className="text-yellow-500 flex items-center justify-center w-8 h-8 rounded-full bg-[#ffffff] shadow-2xl"><MdConstruction /></span> Construction</span>
-                    <span className=" flex items-center gap-4"> <span className=" text-yellow-500 flex items-center justify-center w-8 h-8 rounded-full bg-[#ffffff] shadow-2xl"><FaGamepad /></span> Game Projects </span>
+            <div className="grid grid-cols-1 sm:grid-cols-3 py-10 gap-5 sm:gap-0">
+                <div className="grid grid-rows-5 gap-5">
+                    <span className="flex items-center gap-4"> <span className="text-yellow-500 flex items-center justify-center w-8 h-8 rounded-full bg-[#ffffff] shadow-2xl"><TiSocialInstagram /></span> Social Media</span>
+                    <span className="flex items-center gap-4"> <span className="text-yellow-500 flex items-center justify-center w-8 h-8 rounded-full bg-[#ffffff] shadow-2xl"><MdOutlineSportsBasketball /></span> Fitness and Sport </span>
+                    <span className="flex items-center gap-4"> <span className="text-yellow-500 flex items-center justify-center w-8 h-8 rounded-full bg-[#ffffff] shadow-2xl"><CiBank /></span> Bank </span>
+                    <span className="flex items-center gap-4"> <span className="text-yellow-500 flex items-center justify-center w-8 h-8 rounded-full bg-[#ffffff] shadow-2xl"><MdConstruction /></span> Construction</span>
+                    <span className="flex items-center gap-4"> <span className="text-yellow-500 flex items-center justify-center w-8 h-8 rounded-full bg-[#ffffff] shadow-2xl"><FaGamepad /></span> Game Projects </span>
                 </div>
-                <div className=" grid grid-rows-5 gap-5">
-                    <span className=" flex items-center gap-4"> <span className="text-yellow-500 flex items-center justify-center w-8 h-8 rounded-full bg-[#ffffff] shadow-2xl"><IoBookSharp /></span> Education </span>
-                    <span className=" flex items-center gap-4"> <span className="text-yellow-500 flex items-center justify-center w-8 h-8 rounded-full bg-[#ffffff] shadow-2xl"><FaCarAlt /></span> Auto, Transport </span>
-                    <span className=" flex items-center gap-4"> <span className="text-yellow-500 flex items-center justify-center w-8 h-8 rounded-full bg-[#ffffff] shadow-2xl"><FaRegHeart /></span> Medecine, Health </span>
-                    <span className=" flex items-center gap-4"> <span className="text-yellow-500 flex items-center justify-center w-8 h-8 rounded-full bg-[#ffffff] shadow-2xl"><MdRamenDining /></span> Restrauntants, Food Delivary </span>
-                    <span className=" flex items-center gap-4"> <span className="text-yellow-500 flex items-center justify-center w-8 h-8 rounded-full bg-[#ffffff] shadow-2xl"><IoBagOutline /></span> Marketplace </span>
+                <div className="grid grid-rows-5 gap-5">
+                    <span className="flex items-center gap-4"> <span className="text-yellow-500 flex items-center justify-center w-8 h-8 rounded-full bg-[#ffffff] shadow-2xl"><IoBookSharp /></span> Education </span>
+                    <span className="flex items-center gap-4"> <span className="text-yellow-500 flex items-center justify-center w-8 h-8 rounded-full bg-[#ffffff] shadow-2xl"><FaCarAlt /></span> Auto, Transport </span>
+                    <span className="flex items-center gap-4"> <span className="text-yellow-500 flex items-center justify-center w-8 h-8 rounded-full bg-[#ffffff] shadow-2xl"><FaRegHeart /></span> Medicine, Health </span>
+                    <span className="flex items-center gap-4"> <span className="text-yellow-500 flex items-center justify-center w-8 h-8 rounded-full bg-[#ffffff] shadow-2xl"><MdRamenDining /></span> Restaurants, Food Delivery </span>
+                    <span className="flex items-center gap-4"> <span className="text-yellow-500 flex items-center justify-center w-8 h-8 rounded-full bg-[#ffffff] shadow-2xl"><IoBagOutline /></span> Marketplace </span>
                 </div>
-                <div className=" grid grid-rows-5 gap-5">
-                    <span className=" flex items-center gap-4"> <span className="text-yellow-500 flex items-center justify-center w-8 h-8 rounded-full bg-[#ffffff] shadow-2xl"><LuTarget /></span> AR technology </span>
-                    <span className=" flex items-center gap-4"> <span className="text-yellow-500 flex items-center justify-center w-8 h-8 rounded-full bg-[#ffffff] shadow-2xl"><PiTelevisionLight /></span> TV, Series </span>
-                    <span className=" flex items-center gap-4"> <span className="text-yellow-500 flex items-center justify-center w-8 h-8 rounded-full bg-[#ffffff] shadow-2xl"><RiRemoteControl2Line /></span> Start-ups </span>
-                    <span className=" flex items-center gap-4"> <span className="text-yellow-500 flex items-center justify-center w-8 h-8 rounded-full bg-[#ffffff] shadow-2xl"><RxMagicWand /></span> Religion </span>
-                    <span className=" flex items-center gap-4"> <span className="text-yellow-500 flex items-center justify-center w-8 h-8 rounded-full bg-[#ffffff] shadow-2xl"><IoPlayCircleOutline /></span> Online Courses </span>
+                <div className="grid grid-rows-5 gap-5">
+                    <span className="flex items-center gap-4"> <span className="text-yellow-500 flex items-center justify-center w-8 h-8 rounded-full bg-[#ffffff] shadow-2xl"><LuTarget /></span> AR Technology </span>
+                    <span className="flex items-center gap-4"> <span className="text-yellow-500 flex items-center justify-center w-8 h-8 rounded-full bg-[#ffffff] shadow-2xl"><PiTelevisionLight /></span> TV, Series </span>
+                    <span className="flex items-center gap-4"> <span className="text-yellow-500 flex items-center justify-center w-8 h-8 rounded-full bg-[#ffffff] shadow-2xl"><RiRemoteControl2Line /></span> Start-ups </span>
+                    <span className="flex items-center gap-4"> <span className="text-yellow-500 flex items-center justify-center w-8 h-8 rounded-full bg-[#ffffff] shadow-2xl"><RxMagicWand /></span> Religion </span>
+                    <span className="flex items-center gap-4"> <span className="text-yellow-500 flex items-center justify-center w-8 h-8 rounded-full bg-[#ffffff] shadow-2xl"><IoPlayCircleOutline /></span> Online Courses </span>
                 </div>
             </div>
 
-            <div className='mt-24'>
-                <h1 className='text-5xl font-extrabold'>Projects we are proud of </h1>
-                <p className='mt-10 w-2/3 text-2xl font-bold'>
-                    Our software developmentcompany truly proud of the wonderfull clients we have worked with. We enjoy a long-term partnership
+            <div className="mt-24">
+                <h1 className="text-3xl sm:text-5xl font-extrabold">Projects we are proud of</h1>
+                <p className="mt-10 w-full sm:w-2/3 text-xl sm:text-2xl font-bold">
+                    Our software development company is truly proud of the wonderful clients we have worked with. We enjoy a long-term partnership.
                 </p>
 
-                <div className='py-16 px-5 flex items-center gap-12'>
-                    <span className='relative cursor-pointer border-b-2 border-yellow-500 pb-1'>
+                <div className="py-16 px-5 flex flex-wrap gap-12">
+                    <span className="relative cursor-pointer border-b-2 border-yellow-500 pb-1">
                         Project 1
                     </span>
-                    <span className='relative cursor-pointer hover:border-b-2 hover:border-yellow-500 hover:pb-1'>
+                    <span className="relative cursor-pointer hover:border-b-2 hover:border-yellow-500 hover:pb-1">
                         Project 2
                     </span>
-                    <span className='relative cursor-pointer hover:border-b-2 hover:border-yellow-500 hover:pb-1'>
+                    <span className="relative cursor-pointer hover:border-b-2 hover:border-yellow-500 hover:pb-1">
                         Project 3
                     </span>
-                    <span className='relative cursor-pointer hover:border-b-2 hover:border-yellow-500 hover:pb-1'>
+                    <span className="relative cursor-pointer hover:border-b-2 hover:border-yellow-500 hover:pb-1">
                         Project 4
                     </span>
                 </div>
 
-
-                <div className='flex '>
-                    <div className='w-1/2'>
-                        <h1 className='text-5xl font-extrabold'>
+                <div className="flex flex-col lg:flex-row gap-12">
+                    <div className="lg:w-1/2">
+                        <h1 className="text-3xl sm:text-5xl font-extrabold">
                             Project 1
                         </h1>
-                        <p className='pt-10'>Crafted an innovative rental property managment app, seamless integrating secure login , absence registration, and a tenant notice board. Elevating the resident experience with user-friendly design and effecient channels</p>
-                        <p className='py-8'>Bussiness analysis <span className="text-yellow-500">/</span> iOS <span className="text-yellow-500">/</span> Android text-5xl font-extrabold QA <span className="text-yellow-500">/</span> UI/UX Design</p>
-                        <div className='py-10 px-5 flex gap-40'>
-                            <p className='flex gap-3'>
+                        <p className="pt-10">Crafted an innovative rental property management app, seamlessly integrating secure login, absence registration, and a tenant notice board. Elevating the resident experience with user-friendly design and efficient channels.</p>
+                        <p className="py-8">Business analysis <span className="text-yellow-500">/</span> iOS <span className="text-yellow-500">/</span> Android <span className="text-yellow-500">/</span> QA <span className="text-yellow-500">/</span> UI/UX Design</p>
+                        <div className="py-10 px-5 flex flex-col sm:flex-row gap-12 sm:gap-40">
+                            <p className="flex gap-3">
                                 <span className="text-yellow-500"><CiLocationOn /></span> India
                             </p>
-                            <p className='flex gap-3'>
-                                <span className="text-yellow-500"><MdOutlineRealEstateAgent /></span> Real State
+                            <p className="flex gap-3">
+                                <span className="text-yellow-500"><MdOutlineRealEstateAgent /></span> Real Estate
                             </p>
                         </div>
 
-                        <div className='flex gap-20'>
-                            <div >
-                                <h1 className='text-5xl font-extrabold'>400%</h1>
-                                <p className='text-xl '>User Growth</p>
+                        <div className="flex flex-col sm:flex-row gap-12 sm:gap-20">
+                            <div>
+                                <h1 className="text-3xl sm:text-5xl font-extrabold">400%</h1>
+                                <p className="text-lg sm:text-xl">User Growth</p>
                             </div>
 
                             <div>
-                                <h1 className='text-5xl font-extrabold'>+ 200,000</h1>
-                                <p className='text-xl '>Active USer</p>
+                                <h1 className="text-3xl sm:text-5xl font-extrabold">+200,000</h1>
+                                <p className="text-lg sm:text-xl">Active Users</p>
                             </div>
                         </div>
 
-                        <div className='pt-16 flex gap-4'>
-                            <Button className='flex justify-center items-center gap-2 text-base'>
-                                <RiAppleLine className='text-lg' />
+                        <div className="pt-16 flex gap-4">
+                            <Button className="flex justify-center items-center gap-2 text-base">
+                                <RiAppleLine className="text-lg" />
                                 <span>App Store</span>
                             </Button>
-                            <Button className='flex justify-center items-center gap-2 text-base'>
-                                <FaGooglePlay className='text-lg' />
+                            <Button className="flex justify-center items-center gap-2 text-base">
+                                <FaGooglePlay className="text-lg" />
                                 <span>Google Play</span>
                             </Button>
                         </div>
                     </div>
-                    <div className='w-1/2 flex justify-end'>
-                        <Image className=' w-[80%]' src={img7} />
+                    <div className="lg:w-1/2 flex justify-center lg:justify-end">
+                        <Image className="w-full lg:w-[80%]" src={img7} />
                     </div>
                 </div>
             </div>

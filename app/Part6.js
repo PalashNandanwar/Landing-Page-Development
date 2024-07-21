@@ -10,63 +10,63 @@ import Image from "next/image";
 
 const Part6 = () => {
   return (
-    <div className="relative w-full h-[100%] px-14 py-12" >
-      <h1 className=" mt-24 text-4xl font-bold">
+    <div className="relative w-full h-auto px-4 sm:px-8 lg:px-14 py-12">
+      <h1 className="mt-12 sm:mt-24 text-2xl sm:text-3xl md:text-4xl font-bold text-center">
         Application Development Stages
       </h1>
 
-      <div className=" w-[100%] grid grid-cols-3 mt-20 ">
+      <div className="w-full grid grid-cols-1 lg:grid-cols-3 gap-8 mt-12 sm:mt-20">
         <div className="grid gap-4">
-          <div className="shadow-2xl p-7 ">
-            <div className="flex items-center gap-12">
-              <Image src={img5} />
-              <h1 className=" text-2xl font-semibold"> Analysis </h1>
+          <div className="shadow-2xl p-6 md:p-7">
+            <div className="flex items-center gap-6 md:gap-12">
+              <Image src={img5} alt="Analysis" />
+              <h1 className="text-xl md:text-2xl font-semibold"> Analysis </h1>
             </div>
-            <p className="mt-5">We craft precise technical specs, aligning with your business, technology, and user requirement</p>
+            <p className="mt-4 md:mt-5">We craft precise technical specs, aligning with your business, technology, and user requirements.</p>
           </div>
 
-          <div className="shadow-2xl p-7 ">
-            <div className="flex items-center gap-12">
-              <Image src={img3} />
-              <h1 className=" text-2xl font-semibold"> Design </h1>
+          <div className="shadow-2xl p-6 md:p-7">
+            <div className="flex items-center gap-6 md:gap-12">
+              <Image src={img3} alt="Design" />
+              <h1 className="text-xl md:text-2xl font-semibold"> Design </h1>
             </div>
-            <p className="mt-5">We adapt the customer's corporation identity to the platform guidelines. We draw convenient and understandable interfaces</p>
+            <p className="mt-4 md:mt-5">We adapt the customer's corporate identity to the platform guidelines. We draw convenient and understandable interfaces.</p>
           </div>
 
-          <div className="shadow-2xl p-7 ">
-            <div className="flex items-center gap-12">
-              <Image src={img2} />
-              <h1 className=" text-xl font-semibold"> Development </h1>
+          <div className="shadow-2xl p-6 md:p-7">
+            <div className="flex items-center gap-6 md:gap-12">
+              <Image src={img2} alt="Development" />
+              <h1 className="text-lg md:text-xl font-semibold"> Development </h1>
             </div>
-            <p className="mt-5">We create an extensible architect, write clean and stable code. We integrate with customer technologies. </p>
+            <p className="mt-4 md:mt-5">We create an extensible architecture, write clean and stable code. We integrate with customer technologies.</p>
           </div>
         </div>
-        <div>
-          <Image className=" w-[120%]" src={img8} />
+        <div className="flex justify-center">
+          <Image className="w-[100%] lg:w-[120%]" src={img8} alt="Development Stages" />
         </div>
         <div className="grid gap-4">
-          <div className="shadow-2xl p-7 ">
-            <div className="flex items-center gap-12">
-              <Image src={img6} />
-              <h1 className=" text-xl font-semibold"> Testing </h1>
+          <div className="shadow-2xl p-6 md:p-7">
+            <div className="flex items-center gap-6 md:gap-12">
+              <Image src={img6} alt="Testing" />
+              <h1 className="text-lg md:text-xl font-semibold"> Testing </h1>
             </div>
-            <p className="mt-5">We carry out functional testing and do bug fixes. We adapt the application to different phone resolution </p>
+            <p className="mt-4 md:mt-5">We carry out functional testing and do bug fixes. We adapt the application to different phone resolutions.</p>
           </div>
 
-          <div className="shadow-2xl p-7 ">
-            <div className="flex items-center gap-12">
-              <Image src={img4} />
-              <h1 className=" text-xl font-semibold"> Launching </h1>
+          <div className="shadow-2xl p-6 md:p-7">
+            <div className="flex items-center gap-6 md:gap-12">
+              <Image src={img4} alt="Launching" />
+              <h1 className="text-lg md:text-xl font-semibold"> Launching </h1>
             </div>
-            <p className="mt-5">We design the application page and publish it in the App store and Google paly store. </p>
+            <p className="mt-4 md:mt-5">We design the application page and publish it in the App Store and Google Play Store.</p>
           </div>
 
-          <div className="shadow-2xl p-7 ">
-            <div className="flex items-center gap-12">
-              <Image src={img1} />
-              <h1 className=" text-xl font-semibold"> Support </h1>
+          <div className="shadow-2xl p-6 md:p-7">
+            <div className="flex items-center gap-6 md:gap-12">
+              <Image src={img1} alt="Support" />
+              <h1 className="text-lg md:text-xl font-semibold"> Support </h1>
             </div>
-            <p className="mt-5">We monitor the stability of the application, update it for new devices and version of iOS and Android. </p>
+            <p className="mt-4 md:mt-5">We monitor the stability of the application, update it for new devices and versions of iOS and Android.</p>
           </div>
         </div>
       </div>
