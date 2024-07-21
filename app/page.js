@@ -1,113 +1,133 @@
-import Image from "next/image";
+// import Image from "next/image";
+// import { Input } from "@/components/ui/input"
+import Footer from "./Footer";
+import Part2 from "./Part2";
+import Part3 from "./Part3";
+import Part4 from "./Part4";
+import Part5 from "./Part5";
+import Part6 from "./Part6";
+import Part7 from "./Part7";
+import Part8 from "./Part8";
 
 export default function Home() {
   return (
-    <main className="flex min-h-screen flex-col items-center justify-between p-24">
-      <div className="z-10 max-w-5xl w-full items-center justify-between font-mono text-sm lg:flex">
-        <p className="fixed left-0 top-0 flex w-full justify-center border-b border-gray-300 bg-gradient-to-b from-zinc-200 pb-6 pt-8 backdrop-blur-2xl dark:border-neutral-800 dark:bg-zinc-800/30 dark:from-inherit lg:static lg:w-auto  lg:rounded-xl lg:border lg:bg-gray-200 lg:p-4 lg:dark:bg-zinc-800/30">
-          Get started by editing&nbsp;
-          <code className="font-mono font-bold">app/page.js</code>
-        </p>
-        <div className="fixed bottom-0 left-0 flex h-48 w-full items-end justify-center bg-gradient-to-t from-white via-white dark:from-black dark:via-black lg:static lg:h-auto lg:w-auto lg:bg-none">
-          <a
-            className="pointer-events-none flex place-items-center gap-2 p-8 lg:pointer-events-auto lg:p-0"
-            href="https://vercel.com?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            By{" "}
-            <Image
-              src="/vercel.svg"
-              alt="Vercel Logo"
-              className="dark:invert"
-              width={100}
-              height={24}
-              priority
-            />
-          </a>
+    <>
+      <Part2 />
+      <Part3 />
+      <Part4 />
+      <Part5 />
+      <Part6 />
+      <Part7 />
+      {/* <div className="relative w-full mt-20 px-14 py-20  bg-[#f2f4f7] flex gap-4">
+        <div className=" w-1/2">
+          <h1 className=" text-4xl font-bold"> Our Team </h1>
+          <p className="mt-5 text-[17px]">Thousand is a full-cycle digital production company with its own product analytics, design, web and mobile development</p>
+          <div className="py-10 mr-10 flex justify-between">
+            <div className="flex flex-col gap-5">
+              <h1 className=" text-4xl font-bold">28</h1>
+              <span> team member </span>
+            </div>
+            <div className="flex flex-col gap-5">
+              <h1 className=" text-4xl font-bold">+100</h1>
+              <span> projects </span>
+            </div>
+            <div className="flex flex-col gap-5">
+              <h1 className=" text-4xl font-bold">7 years</h1>
+              <span>in IT sphere</span>
+            </div>
+          </div>
+          <p className="mt-5 text-[17px]">All the necessary sepcialist - from a designer to a tester - are on a staff. We hire the best specialist int the market. It's expensive but worth it</p>
         </div>
-      </div>
+        <div className=" w-1/2">
+          <Image src={img8} />
+        </div>
+      </div> */}
 
-      <div className="relative flex place-items-center before:absolute before:h-[300px] before:w-full sm:before:w-[480px] before:-translate-x-1/2 before:rounded-full before:bg-gradient-radial before:from-white before:to-transparent before:blur-2xl before:content-[''] after:absolute after:-z-20 after:h-[180px] after:w-full sm:after:w-[240px] after:translate-x-1/3 after:bg-gradient-conic after:from-sky-200 after:via-blue-200 after:blur-2xl after:content-[''] before:dark:bg-gradient-to-br before:dark:from-transparent before:dark:to-blue-700 before:dark:opacity-10 after:dark:from-sky-900 after:dark:via-[#0141ff] after:dark:opacity-40 before:lg:h-[360px] z-[-1]">
-        <Image
-          className="relative dark:drop-shadow-[0_0_0.3rem_#ffffff70] dark:invert"
-          src="/next.svg"
-          alt="Next.js Logo"
-          width={180}
-          height={37}
-          priority
-        />
-      </div>
+      {/* <div className="relative w-full mt-10 px-14 py-20">
+        <h1 className="text-5xl uppercase font-extrabold">faq</h1>
 
-      <div className="mb-32 grid text-center lg:max-w-5xl lg:w-full lg:mb-0 lg:grid-cols-4 lg:text-left">
-        <a
-          href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2 className={`mb-3 text-2xl font-semibold`}>
-            Docs{" "}
-            <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
-              -&gt;
-            </span>
-          </h2>
-          <p className={`m-0 max-w-[30ch] text-sm opacity-50`}>
-            Find in-depth information about Next.js features and API.
-          </p>
-        </a>
 
-        <a
-          href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800 hover:dark:bg-opacity-30"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2 className={`mb-3 text-2xl font-semibold`}>
-            Learn{" "}
-            <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
-              -&gt;
-            </span>
-          </h2>
-          <p className={`m-0 max-w-[30ch] text-sm opacity-50`}>
-            Learn about Next.js in an interactive course with&nbsp;quizzes!
-          </p>
-        </a>
+        <div >
+          <Accordion type="single" collapsible className=" mt-10 border-t-2 py-10 grid grid-cols-2 gap-20" >
+            <AccordionItem value="item-1">
+              <AccordionTrigger>What is the cost of Mobile Application ?</AccordionTrigger>
+              <AccordionContent>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum delectus voluptatibus rem odit culpa, placeat rerum quia tempore repellendus eligendi quam? Sunt alias numquam impedit quae quisquam, nostrum ullam velit.
+                Quidem recusandae fugiat pariatur placeat voluptatibus, dolore, hic necessitatibus consequatur aliquid, molestias vel tenetur odio fuga labore dolores provident quia! Praesentium nam ex voluptatem omnis dolore unde ducimus autem iste!
+                Consequuntur ullam, est repudiandae iusto architecto facilis! Nostrum recusandae corporis maxime ducimus cumque numquam eligendi at praesentium repellat facere, odit sint dolorum tenetur amet natus possimus quas, cum quam aperiam.
+                Minus, ipsam temporibus.
+              </AccordionContent>
+            </AccordionItem>
 
-        <a
-          href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2 className={`mb-3 text-2xl font-semibold`}>
-            Templates{" "}
-            <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
-              -&gt;
-            </span>
-          </h2>
-          <p className={`m-0 max-w-[30ch] text-sm opacity-50`}>
-            Explore starter templates for Next.js.
-          </p>
-        </a>
+            <AccordionItem value="item-2">
+              <AccordionTrigger>How long will development take ?</AccordionTrigger>
+              <AccordionContent>
+                Development terms directly depends on the requirements for the mobile application, the characteristics of the company, as well as the wishes of the customer<br />
+                <p className="mt-5">
+                  Average development time from start to finish application:<br />
+                  Medium projects upto <span className="font-bold"> 3 months </span><br />
+                  Large projects upto <span className="font-bold"> 4 to 6 months </span><br />
+                  To get a more accurate estimate of the project completion time, It is necessary to determine the main task of the pplication, think over the logic and functionality
+                </p>
+              </AccordionContent>
+            </AccordionItem>
 
-        <a
-          href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2 className={`mb-3 text-2xl font-semibold`}>
-            Deploy{" "}
-            <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
-              -&gt;
-            </span>
-          </h2>
-          <p className={`m-0 max-w-[30ch] text-sm opacity-50 text-balance`}>
-            Instantly deploy your Next.js site to a shareable URL with Vercel.
-          </p>
-        </a>
-      </div>
-    </main>
+            <AccordionItem value="item-3">
+              <AccordionTrigger>Do you provide a grauntee for the mobile application ?</AccordionTrigger>
+              <AccordionContent>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum delectus voluptatibus rem odit culpa, placeat rerum quia tempore repellendus eligendi quam? Sunt alias numquam impedit quae quisquam, nostrum ullam velit.
+                Quidem recusandae fugiat pariatur placeat voluptatibus, dolore, hic necessitatibus consequatur aliquid, molestias vel tenetur odio fuga labore dolores provident quia! Praesentium nam ex voluptatem omnis dolore unde ducimus autem iste!
+                Consequuntur ullam, est repudiandae iusto architecto facilis! Nostrum recusandae corporis maxime ducimus cumque numquam eligendi at praesentium repellat facere, odit sint dolorum tenetur amet natus possimus quas, cum quam aperiam.
+                Minus, ipsam temporibus.
+              </AccordionContent>
+            </AccordionItem>
+
+            <AccordionItem value="item-4">
+              <AccordionTrigger>I will not tell my idea, Do you guaruntee confidentially ?</AccordionTrigger>
+              <AccordionContent>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum delectus voluptatibus rem odit culpa, placeat rerum quia tempore repellendus eligendi quam? Sunt alias numquam impedit quae quisquam, nostrum ullam velit.
+                Quidem recusandae fugiat pariatur placeat voluptatibus, dolore, hic necessitatibus consequatur aliquid, molestias vel tenetur odio fuga labore dolores provident quia! Praesentium nam ex voluptatem omnis dolore unde ducimus autem iste!
+                Consequuntur ullam, est repudiandae iusto architecto facilis! Nostrum recusandae corporis maxime ducimus cumque numquam eligendi at praesentium repellat facere, odit sint dolorum tenetur amet natus possimus quas, cum quam aperiam.
+                Minus, ipsam temporibus.
+              </AccordionContent>
+            </AccordionItem>
+          </Accordion>
+        </div>
+
+
+      </div> */}
+      <Part8 />
+
+      {/* <div className="relative w-full mt-10 px-14 py-20 " >
+        <div className="w-full bg-[#111111] text-white flex justify-center items-center flex-col rounded-2xl">
+          <div className="pt-10">
+            <Image src={img} />
+          </div>
+          <div className="flex justify-center items-center gap-44 py-24">
+            <div className="flex justify-center items-center flex-col">
+              <span className="flex justify-center items-center gap-5"> <span><FiSmartphone /></span> Contact nums.</span>
+              <span className="font-bold">+91 0000000000</span>
+            </div>
+            <div className="flex justify-center items-center flex-col">
+              <span className="flex justify-center items-center gap-5"> <span><AiOutlineMail /></span> Gmail</span>
+              <span className="font-bold">demo@gmail.com</span>
+            </div>
+            <div className="flex justify-center items-center flex-col">
+              <span className="flex justify-center items-center gap-5"> <span><IoLocationSharp /></span> Addres</span>
+              <span className="font-bold">Mumbai , India</span>
+            </div>
+            <div className="flex justify-center items-center flex-col">
+              <span className="flex justify-center items-center gap-5"> <span><LuStickyNote /></span> Leave a request</span>
+              <span className="font-bold">Leave a request</span>
+            </div>
+          </div>
+
+          <div className="py-10">
+            <p>We workout throughout the world</p>
+          </div>
+        </div>
+      </div> */}
+      <Footer />
+    </>
   );
 }
