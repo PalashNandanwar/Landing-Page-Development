@@ -30,7 +30,7 @@ const Part6 = () => {
               <Image src={img3} alt="Design" />
               <h1 className="text-xl md:text-2xl font-semibold"> Design </h1>
             </div>
-            <p className="mt-4 md:mt-5">We adapt the customer's corporate identity to the platform guidelines. We draw convenient and understandable interfaces.</p>
+            <p className="mt-4 md:mt-5">We adapt the customer&apos;s corporate identity to the platform guidelines. We draw convenient and understandable interfaces.</p>
           </div>
 
           <div className="shadow-2xl p-6 md:p-7">

@@ -113,7 +113,7 @@ const Part4 = () => {
                         </div>
                     </div>
                     <div className="lg:w-1/2 flex justify-center lg:justify-end">
-                        <Image className="w-full lg:w-[80%]" src={img7} />
+                        <Image className="w-full lg:w-[80%]" src={img7} alt='Image Mobil' />
                     </div>
                 </div>
             </div>

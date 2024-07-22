@@ -22,7 +22,7 @@ const Part7 = () => {
                         <span className="text-sm sm:text-base">in IT sphere</span>
                     </div>
                 </div>
-                <p className="mt-5 text-base sm:text-lg">All the necessary specialists - from a designer to a tester - are on staff. We hire the best specialists in the market. It's expensive but worth it.</p>
+                <p className="mt-5 text-base sm:text-lg">All the necessary specialists - from a designer to a tester - are on staff. We hire the best specialists in the market. It&apos;s expensive but worth it.</p>
             </div>
             <div className="w-full lg:w-1/2 flex justify-center lg:justify-end">
                 <Image src={img8} alt="Team Image" className="max-w-full h-auto" />
